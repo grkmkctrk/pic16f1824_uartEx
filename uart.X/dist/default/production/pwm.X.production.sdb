@@ -1,0 +1,271 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1824 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"6 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\main.c
+[v _uartw uartw `(v  1 e 1 0 ]
+"11
+[v _uartW uartW `(v  1 e 1 0 ]
+"25
+[v _uartWln uartWln `(v  1 e 1 0 ]
+"30
+[v _main main `(v  1 e 1 0 ]
+"66 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"94
+[v _EUSART_is_tx_ready EUSART_is_tx_ready `(a  1 e 1 0 ]
+"99
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(a  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"144
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"146
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"154
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"50 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"73
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+[s S68 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"546 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1824.h
+[u S77 . 1 `S68 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES77  1 e 1 @17 ]
+"1115
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1165
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S290 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1391
+[s S299 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S304 . 1 `S290 1 . 1 0 `S299 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES304  1 e 1 @149 ]
+"1502
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1561
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1619
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1952
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"1997
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S235 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"2012
+[u S242 . 1 `S235 1 . 1 0 ]
+[v _LATCbits LATCbits `VES242  1 e 1 @270 ]
+"2319
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2668
+[v _APFCON0 APFCON0 `VEuc  1 e 1 @285 ]
+"2729
+[v _APFCON1 APFCON1 `VEuc  1 e 1 @286 ]
+"2767
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2814
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3054
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3074
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3110
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"3160
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"3193
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S110 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3210
+[u S119 . 1 `S110 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES119  1 e 1 @413 ]
+"3255
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S89 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3272
+[u S98 . 1 `S89 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES98  1 e 1 @414 ]
+"3317
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"3369
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3427
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"7283
+[v _PLLR PLLR `VEb  1 e 0 @1238 ]
+[s S22 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\mcc_generated_files/eusart.c
+[u S27 . 1 `S22 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES27  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"30 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"32
+[v main@rxData rxData `VEuc  1 a 1 0 ]
+"50
+} 0
+"25
+[v _uartWln uartWln `(v  1 e 1 0 ]
+{
+[v uartWln@data data `*.26uc  1 p 2 11 ]
+"28
+} 0
+"11
+[v _uartW uartW `(v  1 e 1 0 ]
+{
+"15
+[v uartW@i i `i  1 a 2 7 ]
+"12
+[v uartW@size size `ui  1 a 2 9 ]
+"11
+[v uartW@data data `*.26uc  1 p 2 5 ]
+"23
+} 0
+"6
+[v _uartw uartw `(v  1 e 1 0 ]
+{
+[v uartw@data data `uc  1 a 1 wreg ]
+[v uartw@data data `uc  1 a 1 wreg ]
+[v uartw@data data `uc  1 a 1 0 ]
+"9
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.26DCuc  1 a 2 3 ]
+"5
+[v strlen@s s `*.26DCuc  1 p 2 0 ]
+"12
+} 0
+"50 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"73
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"55 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"59 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"66 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\pwm.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"163
+} 0
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"159
+} 0
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"167
+} 0
+"94
+[v _EUSART_is_tx_ready EUSART_is_tx_ready `(a  1 e 1 0 ]
+{
+"97
+} 0
+"99
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(a  1 e 1 0 ]
+{
+"102
+} 0
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+{
+"130
+} 0
